@@ -1,20 +1,19 @@
-#Introduction
+Bedrock.Shared is a .NET Standard library for writing .NET applications.
 
-#Getting Started
-1.	Installation process
+In general, Bedrock is a template for developing ASP.NET Core applications using Onion Architecture and S.O.L.I.D. design principles.
 
-Be sure to run init.cmd.  This will ensure that NuGet can connect to authenticated feeds with the developer's credentials.
+It contains a set of shared libraries in the form of Nuget packages and a template application that leverages these shared libraries.  It also contains an application for handling enterprise security (AuthZ).  The project also contains a tool to generate boilerplate domain code inferred from a database schema instance. 
 
-At least once a month and whenever your password changes, you should refresh your environment by running init again.
+Bedrock is comprised of four (4) repositories:
 
-See:  https://docs.microsoft.com/en-us/azure/devops/artifacts/nuget/bootstrap-nuget?view=azure-devops
+(1)  Bedrock.Shared -  this repository; the shared library
 
-2.	Software dependencies
+(2)  Bedrock.Shared.Security -  Angular and ASP.NET Core Web API enterprise security application that leverages the Bedrock.Shared library
 
-3.	Latest releases
+(3)  Bedrock.Template.Api -  Angular and ASP.NET Core Web API template application that leverages the Bedrock.Shared library and Bedrock.Shared.Security application
 
-4.	API references
+(4)  Bedrock.DomainBuilder - Winform application to generate boilerplate domain layer code like domain entities/enumerations/services, EF DbContext, EF configuration mapping files etc...
 
-#Build and Test
+The template application is wired up to authenticate with Azure AAD B2C, but that can be removed easily within Startup.cs.
 
-#Contribute
+More description and help to follow.
