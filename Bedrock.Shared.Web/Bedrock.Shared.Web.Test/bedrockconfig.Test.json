@@ -1,0 +1,8 @@
+{
+  "bedrockConfig": {
+    "application": {
+      "name": "Bedrock Shared Core Test",
+      "environment": "Test"
+    }
+  }
+}

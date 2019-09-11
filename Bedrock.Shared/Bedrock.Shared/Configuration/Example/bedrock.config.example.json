@@ -1,0 +1,177 @@
+﻿{
+  "bedrockConfig": {
+    "application": {
+      "name": "Bedrock Application",
+      "environment": "Test",
+      "supportEmailAddress": "support@bedrock.com"
+    },
+    "cache": {
+      "isCacheEnabled": true,
+      "cacheType": "Memory",
+      "cacheExpiry": 20,
+      "cacheExpiryHour": 0,
+      "configuredCaches": [ "Memory" ],
+      "redis": {
+        "abortOnConnectFail": true,
+        "allowAdmin": false,
+        "channelPrefix": {},
+        "clientName": "Bedrock Redis Client",
+        "commands": [],
+        "configCheckSeconds": 60,
+        "configurationChannel": "__Booksleeve_MasterChanged",
+        "connectRetry": 3,
+        "connectTimeout": 5000,
+        "defaultDatabase": null,
+        "defaultVersion": "2.8.2101",
+        "isCommandsAvailable": false,
+        "keepAlive": 180,
+        "password": {},
+        "proxy": "None",
+        "resolveDns": false,
+        "responseTimeout": 1000,
+        "serviceName": {},
+        "ssl": false,
+        "sslHost": {},
+        "syncTimeout": 1000,
+        "tieBreaker": "__Booksleeve_TieBreak",
+        "endPoints": [
+          {
+            "host": "localhost",
+            "port": 6379
+          }
+        ]
+      },
+      "cacheItems": {
+        "exampleTypes": "1:00:00:00"
+      }
+    },
+    "data": {
+      "commandTimeout": 2147483647,
+      "autoDetectChangesEnabled": true,
+      "lazyLoadingEnabled": false,
+      "proxyCreationEnabled": true,
+      "validateOnSaveEnabled": false,
+      "isValidateOnPropertyChanged": false,
+      "autoSaveAuditFields": true,
+      "isEnsureEntitiesModified": true,
+      "isReadUncommitted": false,
+      "isSoftDelete": true,
+      "softDeleteColumn": "DeletedDate",
+      "truncateDecimalsToScale": false,
+      "isLog": false,
+      "isAutoTransactionsEnabled": true,
+      "isUseRowNumberForPaging": true,
+      "tracking": {
+        "isStoreOriginalValues": false,
+        "isSelfTrackingEntitiesEnabled": false,
+        "isChangeTrackerEnabled": false
+      },
+      "connectionStrings": {
+        "Bedrock.Template.Api.Infrastructure.ConnectionString.Template": "Server=.;Database=Template;Trusted_Connection=True;"
+      }
+    },
+    "distributedService": {
+      "services": [
+        {
+          "name": "TestService",
+          "type": "WebApi",
+          "baseAddress": "http://localhost:1234/"
+        }
+      ]
+    },
+    "email": {
+      "isEnabled": true,
+      "fromAddress": "test.mail@bedrock.com",
+      "toAddresses": {
+        "primary": "support@bedrock.com",
+        "other": {}
+      },
+      "smtp": {
+        "server": "mail.bedrock.com",
+        "port": "25",
+        "isUseDefaultCredentials": true,
+        "username": "|~|",
+        "password": "|~|",
+        "deliveryMethod": "Network",
+        "pickupDirectoryLocation": null
+      }
+    },
+    "hash": {
+      "workFactor": 12,
+      "shiftFactor": 35,
+      "shiftOffset": 7,
+      "shiftDirection": "Left",
+      "isKillSalt": false
+    },
+    "log": {
+      "actionMethod": {
+        "isEnabled": "false",
+        "isLogParameters": "false",
+        "isLogParameterValues": "false",
+        "isLogReturn": "false",
+        "isLogReturnValue": "false"
+      },
+      "orm": {
+        "isLog": "false",
+        "isConsole": "false",
+        "isDebug": "true",
+        "isFiltered": "true",
+        "categoryFilters": [
+          "Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommandBuilderFactory",
+          "Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerConnection",
+          "Microsoft.EntityFrameworkCore.DbContext",
+          "Microsoft.EntityFrameworkCore.Infrastructure",
+          "Microsoft.EntityFrameworkCore.Query",
+          "Microsoft.EntityFrameworkCore.Database.Command",
+          "Microsoft.EntityFrameworkCore.Model.Validation",
+          "Microsoft.EntityFrameworkCore.Database.Transaction",
+          "Microsoft.EntityFrameworkCore.Database.Connection",
+          "Microsoft.EntityFrameworkCore.Update"
+        ],
+        "enableSensitiveDataLogging": "false"
+      }
+    },
+    "queue": {
+      "queueType": "Object",
+      "configuredQueues": [ "Object" ],
+      "msmq": {
+        "queueServer": ".",
+        "privatePath": "\\private$\\",
+        "isPrivatePath": true,
+        "isTransactional": false,
+        "messageFormatter": "Binary",
+        "receiveTimeout": "00:00:01"
+      }
+    },
+    "security": {
+      "application": {
+        "authorization": {
+          "timeout": 5000
+        },
+        "claimCollection": {
+          "applications": [ "Template" ],
+          "connectionKey": "Bedrock.Shared.Security.ConnectionString.{0}",
+          "isCacheEnabled": "true",
+          "cacheType": "Memory",
+          "cacheExpiry": "30"
+        },
+        "AzureAdB2C": {
+          "InstanceUrl": "https://bedrocktenant.b2clogin.com",
+          "Tenant": "bedrocktenant.onmicrosoft.com",
+          "ApplicationId": "https://bedrocktenant.onmicrosoft.com/template-api/",
+          "AuthorizeUri": "oauth2/v2.0/authorize?p=B2C_1_SignInFlow",
+          "TokenUri": "oauth2/v2.0/token?p=B2C_1_SignInFlow",
+          "ClientId": "a1332475-928b-4a54-9cb4-de5afbd6ff71",
+          "Policy": "B2C_1_SignInFlow",
+          "ScopeRead": "Api.Read",
+          "ScopeWrite": "Api.Write",
+          "ScopeImpersonation": "user_impersonation",
+          "ApiVersion": "v2.0"
+        },
+        "SwaggerAdB2C": {
+          "ClientId": "fe6e1718-91e3-46e9-847b-b6a2a5568ae3"
+        }
+      }
+    }
+  }
+}

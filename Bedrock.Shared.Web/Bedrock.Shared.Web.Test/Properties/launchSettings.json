@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"Bedrock.Shared.Core.Test": {
+			"commandName": "Project",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Test"
+			}
+		}
+	}
+}

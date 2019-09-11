@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Bedrock.Shared.Tools.VersionBumper": {
+      "commandName": "Project"
+    }
+  }
+}
