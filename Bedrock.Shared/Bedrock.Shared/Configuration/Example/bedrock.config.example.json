@@ -161,7 +161,7 @@
           "ApplicationId": "https://bedrocktenant.onmicrosoft.com/template-api/",
           "AuthorizeUri": "oauth2/v2.0/authorize?p=B2C_1_SignInFlow",
           "TokenUri": "oauth2/v2.0/token?p=B2C_1_SignInFlow",
-          "ClientId": "a1332475-928b-4a54-9cb4-de5afbd6ff71",
+          "ClientId": "75051705-92D7-4F86-8C60-D9F6B7E7C18B",
           "Policy": "B2C_1_SignInFlow",
           "ScopeRead": "Api.Read",
           "ScopeWrite": "Api.Write",
@@ -169,7 +169,7 @@
           "ApiVersion": "v2.0"
         },
         "SwaggerAdB2C": {
-          "ClientId": "fe6e1718-91e3-46e9-847b-b6a2a5568ae3"
+          "ClientId": "8BE591A8-EB1D-473B-A2FB-C37DB2C0605D"
         }
       }
     }
