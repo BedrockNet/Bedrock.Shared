@@ -1,3 +1,4 @@
+# Introduction
 Bedrock.Shared is a .NET Standard library for writing .NET applications.
 
 In general, Bedrock is a template for developing ASP.NET Core applications using Onion Architecture and S.O.L.I.D. design principles.
@@ -17,3 +18,9 @@ Bedrock is comprised of four (4) repositories:
 The template application is wired up to authenticate with Azure AAD B2C, but that can be removed easily within Startup.cs.
 
 More description and help to follow.
+
+# Getting Started
+
+# Build and Test
+
+# Contribute
