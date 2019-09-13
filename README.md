@@ -22,13 +22,13 @@ The template application is wired up to authenticate with Azure AAD B2C, but thi
 More description and help to follow.
 
 # Getting Started
-To come
+Coming soon
 
 # Build and Test
-To come
+Coming soon
 
 # Contribute
-To come
+Coming soon
 
 # Credits
-To come
+Coming soon
