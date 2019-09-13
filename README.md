@@ -5,7 +5,7 @@ In general, Bedrock is a template for developing ASP.NET Core applications using
 
 It contains a set of shared libraries in the form of Nuget packages and a template application that leverages these shared libraries.  It also contains an application for handling enterprise security (AuthZ).  The project also contains a tool to generate boilerplate domain code inferred from a database schema instance. 
 
-Bedrock is comprised of four (5) repositories:
+Bedrock is comprised of five (5) repositories:
 
 (1)  Bedrock.Shared -  this repository; the shared library
 
