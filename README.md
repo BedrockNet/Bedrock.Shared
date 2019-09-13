@@ -15,12 +15,18 @@ Bedrock is comprised of four (4) repositories:
 
 (4)  Bedrock.DomainBuilder - Winform application to generate boilerplate domain layer code like domain entities/enumerations/services, EF DbContext, EF configuration mapping files etc...
 
-The template application is wired up to authenticate with Azure AAD B2C, but that can be removed easily within Startup.cs.
+The template application is wired up to authenticate with Azure AAD B2C, but this is turned off at the moment within Startup.
 
 More description and help to follow.
 
 # Getting Started
+To come
 
 # Build and Test
+To come
 
 # Contribute
+To come
+
+# Credits
+To come
