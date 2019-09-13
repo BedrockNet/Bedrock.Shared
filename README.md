@@ -13,7 +13,7 @@ Bedrock is comprised of five (5) repositories:
 
 (3)  Bedrock.Shared.Security.Api -  ASP.NET Core Web API enterprise security application that leverages the Bedrock.Shared library
 
-(4)  Bedrock.Template.Api -  Angular and ASP.NET Core Web API template application that leverages the Bedrock.Shared library and Bedrock.Shared.Security application
+(4)  Bedrock.Template.Api -  ASP.NET Core Web API template application that leverages the Bedrock.Shared library and Bedrock.Shared.Security application
 
 (5)  Bedrock.DomainBuilder - Winform application to generate boilerplate domain layer code like domain entities/enumerations/services, EF DbContext, EF configuration mapping files etc...
 
