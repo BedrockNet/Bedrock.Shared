@@ -8,6 +8,8 @@ namespace Bedrock.Shared.Configuration
 	public class Security
     {
         #region Public Properties
+        public bool IsEnabled { get; set; }
+
         public SecurityApplication Application { get; set; }
         #endregion
     }

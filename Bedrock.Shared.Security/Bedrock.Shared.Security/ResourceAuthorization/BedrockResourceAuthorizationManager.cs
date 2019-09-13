@@ -26,6 +26,9 @@ namespace Bedrock.Shared.Security.ResourceAuthorization
         #region Public Methods
         public override Task<bool> CheckAccessAsync(IResourceAuthorizationContext context)
         {
+            if (!BedrockConfiguration.Security.IsEnabled)
+                return Task.FromResult(true);
+
             AddPermissionClaims(context);
             return Eval(context.Principal.Claims.HasAccess(context));
         }

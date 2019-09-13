@@ -144,6 +144,7 @@
       }
     },
     "security": {
+      "isEnabled": true,
       "application": {
         "authorization": {
           "timeout": 5000

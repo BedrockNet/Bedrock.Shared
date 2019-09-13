@@ -7,7 +7,7 @@ REM %4:  Is Bump Package Versions
 REM %5:  Is Build Packages
 REM %6:  Is Push Packages
 
-REM Example:  build.bat "D:\Bedrock.Shared\nuget" "1.0.0" true true true true
+REM Example:  build.bat "D:\Bedrock\Bedrock.Shared" "1.0.0" true true true true
 
 IF "%~1" == "" (
 	echo Missing parameter
