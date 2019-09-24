@@ -5,7 +5,7 @@
   </PropertyGroup>
 	
   <ItemGroup>
-    <PackageReference Include="Bedrock.Shared.Web.Api" Version="1.0.0" />
+    <PackageReference Include="Bedrock.Shared.Web.Api" Version="1.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.2.0" />

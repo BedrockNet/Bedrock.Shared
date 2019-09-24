@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bedrock.Shared.Serialization.Binary" Version="1.0.0" />
-    <PackageReference Include="Bedrock.Shared.Serialization.Newtonsoft" Version="1.0.0" />
-    <PackageReference Include="Bedrock.Shared.Serialization.Xml" Version="1.0.0" />
+    <PackageReference Include="Bedrock.Shared.Serialization.Binary" Version="1.0.1" />
+    <PackageReference Include="Bedrock.Shared.Serialization.Newtonsoft" Version="1.0.1" />
+    <PackageReference Include="Bedrock.Shared.Serialization.Xml" Version="1.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
