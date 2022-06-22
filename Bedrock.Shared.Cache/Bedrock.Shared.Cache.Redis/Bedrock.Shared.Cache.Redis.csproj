@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Bedrock.Shared.Cache" Version="1.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="4.0.5" />
     <PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="4.0.5" />
   </ItemGroup>
